@@ -1,0 +1,338 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family:'KorolevHeavy';
+	font-weight: 'Heavy';
+	max-height: 500px;
+	max-width: 1283px;
+}
+@font-face {
+    font-family: 'KorolevHeavy';
+   	src: url(fonts/KorolevHeavy.woff)format('woff');
+}
+.tela {
+	max-width: 400px;
+	max-height: 700px;
+}
+.menu{	
+	width: 228px;
+	position: fixed;
+	top: 270px;
+	left: 35px;
+}
+.menu a {
+	background-color: none;
+    color: #006C1C; 
+    display: block;
+    padding: 12px; 
+    text-decoration: none; 
+    font-family: 'KorolevHeavy';
+    font-weight: 'Heavy';
+}
+.img_logo{
+	width: 250px;
+	height: 167px;
+	position: fixed;
+	top: 80px;
+}
+.topo {
+	position: relative;
+	margin: 1px;
+}
+.img_fundo{
+	width: 1283px;
+	height: 650px;
+	margin-top: -10px;
+}
+.introdução{
+	width: 553px;
+	height: 404px;
+	font-size: 23px;
+   	position: relative;
+   	top: -350px;
+   	left: 280px;
+}
+.img_1{
+	width: 295px;
+	height: 200px;
+	border-radius: 25px;
+	position: relative;
+	top: -520px;
+	left: 280px;
+}
+.img_2{
+	width: 295px;
+	height: 200px;
+	border-radius: 25px;
+	position: relative;
+	top: -520px;
+	left: 330px;
+}
+.img_3{
+	width: 295px;
+	height: 200px;
+	border-radius: 25px;
+	position: relative;
+	top: -520px;
+	left: 380px;	
+}
+.titulo1{ 
+	font-size: 44px;
+	position: relative;
+	top: -420px;
+	left: 280px;
+}
+.img_alfabetização{
+	width: 100px;
+	height: 92px;
+	position: relative;
+	top: -360px;
+	left: 325px;
+}
+.text_alfabetização{
+	width: 173.54px;
+	height: 43.49px;
+	position: relative;
+	top: -360px;
+	left: 325px;
+}
+.img_reforço{
+	width: 100px;
+	height: 92px;
+	position: relative;
+	top: -505px;
+	left: 585px;
+}
+.text_reforço{
+	width: 198.56px;
+	height: 50px;
+	position: relative;
+	top: -500px;
+	left: 585px;
+}
+.img_ingles{
+	width: 100px;
+	height: 92px;
+	position: relative;
+	top: -640px;
+	left: 830px;
+}
+.text_inglês{
+	width: 198.56px;
+	height: 50px;
+	position: relative;
+	top: -643px;
+	left: 830px;
+}
+.img_palestras{
+	width: 100px;
+	height: 122px;
+	position: relative;
+	top: -820px;
+	left: 1080px;
+}
+.text_palestras{
+	width: 125.92px;
+	height: 43.59px;
+	position: relative;
+	top: -820px;
+	left: 1080px;
+}
+.img_artesanato {
+	width: 120px;
+	height: 112px;
+	position: relative;
+	top: -770px;
+	left: 320px;
+}
+.text_artesanato{
+	width: 145.29px;
+	height: 43.59px;
+	position: relative;
+	top: -785px;
+	left: 328px;
+}
+.img_teatro{
+	width: 100px;
+	height: 92px;
+	position: relative;
+	top: -925px;
+	left: 598px;
+}
+.text_teatro{
+	width: 85.56px;
+	height: 43.59px;
+	position: relative;
+	top: -925px;
+	left: 625px;
+}
+.img_dança{
+	width: 100px;
+	height: 92px;	
+	position: relative;
+	top: -1065px;
+	left: 835px;
+}
+.text_dança{	
+	width: 85.56px;
+	height: 43.59px;
+	position: relative;
+	top: -1065px;
+	left: 865px;
+}
+.img_capoeira{
+	width: 100px;
+	height: 92px;
+	position: relative;
+	top: -1207px;
+	left: 1060px;
+}
+.text_capoeira{
+	width: 85.56px;
+	height: 43.59px;
+	position: relative;
+	top: -1207px;
+	left: 1080px;
+}
+.impacto_color{
+	background-color: #006C1C;
+	width: 998px;
+	height:315px;
+	position: relative;
+	top: -1100px;
+	left: 286px;
+}
+.div_impacto{
+	max-width: 1000px;
+	max-height: 400px;
+}
+.titulo2{
+	color: #FFFF00;
+	font-size: 44px;
+	position: relative;
+	top: -1362px;
+	left: 340px;
+}
+.img_impacto{
+	width: 395px;
+	height: 300px;
+	border-radius: 25px;
+	border: 20px solid #FFFFFF;
+	position: relative;	
+	top: -1660px;
+	left: 790px;
+}
+.text_impacto{
+	color: #FFFFFF;
+	font-size: 18px;
+	width: 250px;
+	height: 263px;
+	position: relative;	
+	top: -1320px;
+	left: 345px;
+}
+.titulo3{
+	position: relative;
+	top: -1600px;
+	left: 290px;
+}
+.p_container1{
+	display: flex;
+	justify-content: space-around;
+	width: 720px;
+	position: relative;
+	top: -1520px;
+	left: 300px;
+}
+.p_container2{
+	display: flex;
+	justify-content: space-around;
+	width: 730px;
+	position: relative;
+	top: -1500px;
+	left: 350px;
+}
+.img_sesc{
+	width: 139px;
+	height: 139px;
+}
+.img_negra{
+	width: 93px;
+	height: 93px;
+}
+.img_radio{
+	width: 118px;
+	height: 118px;
+}
+.img_itarare{
+	width: 92px;
+	height: 92px;
+	position: relative;
+	left: 30px;
+}
+.text_itarare{
+	width: 92px;
+	height: 92px;
+	position: relative;
+	top: 105px;
+	left: -95px;
+	font-size: 10px;	
+}
+.img_samba{
+	width: 180px;
+	height: 180px;
+}
+.img_hashi{
+	width: 97px;
+	height: 97px;
+}
+.text_hashi{
+	position: relative;
+	top: 110px;
+	left: -135px;
+	font-size: 10px;	
+}
+.c_conteiner{
+	background-color: #00C733;
+	width: 998px;
+	height:515px;
+	position: relative;
+	top:-1420px;
+	left: 286px;
+}
+.img_contato{
+	width: 395px;
+	height: 300px;
+	border-radius: 25px;
+	border: 20px solid #FFFFFF;
+	position: relative;
+	top: 80px;
+	left:500px;
+}
+.titulo4{
+	color:#FFFF00;
+	font-size: 44px;
+	position: relative;
+	top: -270px;
+	left:70px;
+}
+.numero_tel{
+	position: relative;
+	top:-215px;
+	left: 68px;
+	color: #FFFFFF;
+}
+.Endereço{
+	color: #FFFFFF;
+	position: relative;
+	top: -85px;
+	left: 68px;
+}
+.end_email{
+	color: #FFFFFF;
+	position: relative;
+	top: -220px;
+	left: 68px;
+}
